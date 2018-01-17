@@ -29,3 +29,8 @@ function prependKitten(name) {
   var addKittenToBeginning = [name, ...kittens];
   return addKittenToBeginning;
 }
+
+function removeLastKitten(name) {
+  var byeLastKitten = kittens.slice(kittens.length-1);
+  return byeLastKitten;
+}
